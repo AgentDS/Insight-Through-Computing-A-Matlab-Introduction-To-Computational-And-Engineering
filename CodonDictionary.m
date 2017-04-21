@@ -1,0 +1,68 @@
+function C = CodonDictionary()
+% 密码子字典
+% C是一个61x7的字符串数组
+% C(k,1:3)指定一个密码子,C(k,5:7)为该密码子对应的氨基酸     k= 1:61
+C= ['GCT Ala';
+    'GCC Ala';
+    'GCA Ala';
+    'GCG Ala';
+    'CGT Arg';
+    'CGC Arg';
+    'CGA Arg';
+    'CGG Arg';
+    'AGA Arg';
+    'AGG Arg';
+    'AAT Asn';
+    'AAC Asn';
+    'GAT Asp';
+    'GAC Asp';
+    'TGT Cys';
+    'TGC Cys';
+    'CAA Glu';
+    'CAG Glu';
+    'GAA Gln'; 
+    'GAG Gln';
+    'GGT Gly';
+    'GGC Gly';
+    'GGA Gly';
+    'GGG Gly';
+    'CAT His';
+    'CAC His';
+    'ATT Ile'; 
+    'ATC Ile';
+    'ATA Ile';
+    'CTT Leu';
+    'CTC Leu';
+    'CTA Leu';
+    'CTG Leu';
+    'TTA Leu';
+    'TTG Leu';
+    'AAA Lys';
+    'AAG Lys';
+    'ATG Met';
+    'TTT Phe';
+    'TTC Phe';
+    'CCT Pro';
+    'CCC Pro';
+    'CCA Pro';
+    'CCG Pro';
+    'TCT Ser';
+    'TCC Ser';
+    'TCA Ser';
+    'TCG Ser';
+    'AGT Ser';
+    'AGC Ser';
+    'ACT Thr';
+    'ACC Thr';
+    'ACA Thr';
+    'ACG Thr';
+    'TGG Trp';
+    'TAT Tyr';
+    'TAC Tyr';
+    'GTT Val';
+    'GTC Val';
+    'GTA Val';
+    'GTG Val'];
+
+end
+% CodonDictionary函数结束
